@@ -31,8 +31,8 @@
  
  ### Links
  
- - Solution URL: (https://your-solution-url.com)
- - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+ - Solution URL: (https://github.com/h3cat3/FAQ-accordion-main)
+ - Live Site URL: (https://h3cat3.github.io/FAQ-accordion-main/)
  
  ## My process
  
