@@ -27,6 +27,10 @@ body {
     align-items: center;
     overflow-x: hidden;
 }
+button{
+    border: none;
+    background: none;
+}
 .card{
     width: 90%;
     max-width: 20.4375rem;
@@ -36,7 +40,6 @@ body {
    border-radius: 8px;
 }
 .star, .heading {
-    
     display: inline-block;
 }
 .star{
@@ -61,7 +64,7 @@ body {
     padding-right: 24px;
 
 }
-.expand{
+.expand-image{
     size: 30px;
     border: none;
     background-color: inherit;
