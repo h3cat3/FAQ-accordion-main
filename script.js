@@ -7,13 +7,13 @@ const answers = document.querySelectorAll(".answer");
 document.addEventListener('DOMContentLoaded',() => {
     expansionButton.forEach((button,index) => {
         button.addEventListener('click', () => {
-            const isExpanded = answers[index].style.display === "block";
-            if (!isExpanded) {
+            const isHidden = answers[index].classList.contains("hide");
+            if (isHidden) {
                 button.innerHTML= '<img src = "assets/images/icon-minus.svg" alt="minimise">';
-                answers[index].style.display = "block";
+                answers[index].classList.remove("hide");
             } else {
                button.innerHTML= '<img src = "assets/images/icon-plus.svg" alt="expand">';
-                answers[index].style.display = "none";
+                answers[index].classList.add("hide");
             }
         })
         

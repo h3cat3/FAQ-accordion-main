@@ -71,8 +71,11 @@ button{
     float: right;
     
 }
-.answer {
+.hide{
     display: none;
+}
+.answer {
+    
     font-size: 0.75rem;
     line-height: 150%;
     font-weight: 400;
